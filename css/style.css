@@ -1,0 +1,36 @@
+@import url(./components/cards-group.css);
+@import url(./components/card.css);
+@import url(./buttons/button.css);
+@import url(./components/special-card.css);
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   font-family: "Titillium Web", sans-serif;
+}
+
+body {
+   width: 100vw;
+   height: 100vh;
+   background: #f8fafc;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+/* Estilos específicos para dispositivos com largura de tela menor que 600 pixels */
+/* @media screen and (max-width: 600px) {
+   #cards-group {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 24px;
+
+      width: 320px;
+      height: 1075px;
+   }
+} */

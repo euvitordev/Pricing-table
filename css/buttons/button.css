@@ -1,0 +1,82 @@
+button {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 16px 24px;
+   gap: 10px;
+   margin: 32px 0 32px 0;
+
+   width: 320px;
+   height: 56px;
+
+   /* Gray-800 */
+
+   background: none;
+   border: 1px solid #1e293b;
+   border-radius: 4px;
+   cursor: pointer;
+
+   font-family: "Titillium Web";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+
+   /* Gray-800 */
+
+   color: #1e293b;
+   transition: all 0.6s;
+}
+button:hover {
+   background: #1e293b;
+
+   font-family: "Titillium Web";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+
+   /* White */
+
+   color: #ffffff;
+}
+
+/* Special Card */
+.special-card button {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 16px 24px;
+   gap: 10px;
+   margin: 32px 0 32px 0;
+
+   width: 320px;
+   height: 56px;
+
+   /* Gray-800 */
+
+   background: none;
+   border-radius: 4px;
+   cursor: pointer;
+
+   font-family: "Titillium Web";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+
+   background: #996dff;
+   color: #ffffff;
+   transition: all 0.6s;
+}
+.special-card button:hover {
+   background: #7c3aed;
+   font-family: "Titillium Web";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+}
+/* Special Card */
